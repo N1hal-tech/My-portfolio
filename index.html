@@ -4,26 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nihal's Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <h1>Nihal reddy's portfolio</h1>
-    <hr />
-    <h2>HEY! Its me ;p</h2>
-    <figure>
-        <a href="./assets/images/rock-one-eyebrow-raised-rock-staring.gif"><img src="./assets/images/Profile pic.jpg" height="100"/></a><br />
-        <figurecaption style="font-size:xx-small">Don't click me!</figurecaption>
-    </figure>
-    <hr />
-    <p style="color:brown">Wanna know about me?? click below...</p>
-    <a href="./public/about.html">About me</a><br />
-    <p style="color:brown">Wanna contact me?? click below...</p>
-    <a href="./public/contact.html">Contact me</a> 
-    <hr />
-    <h2 style="color:brown">My work </h2>
-    <h3 class="link"><a href="./Moive-Website.html">My movieranking website</a></h3>
-    <hr />
-</body>
-</html> 
 
+    <header>
+        <h1>K.Nihal Reddy</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <img src="./assets/images/Profile pic.jpg" alt="Profile Picture">
+        <div>
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer who loves creating clean and functional websites. I specialize in HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card"><a href="./Moive-Website.html"></a>MovieMania</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: knihalreddy5@gmail.com</p>
+        <p>Click to open</p>
+        <p><a href="www.linkedin.com/in/kaipu-nihal-reddy-a3b91b367" style="text-decoration: none; color:black">LinkedIn</a> | <a href="https://github.com/N1hal-tech" style="text-decoration: none;color:black">GitHub</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Nihalreddy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
